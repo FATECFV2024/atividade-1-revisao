@@ -1,11 +1,16 @@
 # Atividade 1 - Revisão de Conceitos
 
 ## Sumário 
-- [Como Utilizar Esse Projteto](#como-utilizar-esse-projeto-)
+- [Como Utilizar Esse Projeto](#como-utilizar-esse-projeto-)
 - [Escopo da Atividade](#escopo-da-atividade-%EF%B8%8F) 
+  - [Exercício 01: Operações Básicas](#-exercício-01-operações-básicas)
+  - [Exercício 02: Cálculo de INSS](#-exercício-02-cálculo-de-inss)
+  - [Exercício 03: Cálculo de IRPF](#-exercício-03-cálculo-de-irpf)
+  - [Exercício 04: Conversor de Idade](#-exercício-04-conversor-de-idade)
 - [No Google ClassRoom](#no-google-clasroom--)
 - [Regras](#regras-)
 - [Feedback](#feedback-)
+- [GitHub Classroom - Correção Automática](#github-classroom---correção-automática-)
 
 ## Como Utilizar Esse Projeto 📁
 
@@ -17,24 +22,13 @@
 
 
 ## Escopo da Atividade 🛠️
-Implementar uma classe que seja capaz de simular todos os cenários abaixo: 
+Implementar uma classe `App` na pasta `src` que seja capaz de resolver todos os exercícios abaixo.
 
-### Contrato para autocorreção no GitHub Classroom
+**⚠️ Importante:** Cada exercício possui uma **saída esperada específica**. A correção automática irá comparar os resultados do seu programa com valores esperados, portanto:
+- Os cálculos devem seguir **precisamente** as faixas e alíquotas especificadas
+- Teste seus métodos com diferentes valores para garantir que os resultados estejam corretos antes de fazer o commit
 
-Para que a correção automática funcione, implemente os métodos estáticos abaixo na classe `App`:
-
-```java
-public static double[] operacoesBasicas(double a, double b)
-public static double calcularINSS(double salario)
-public static double calcularIRPF(double salario)
-public static int[] converterIdadeEmDias(int totalDias)
-```
-
-Regras esperadas pelo corretor:
-- `operacoesBasicas`: deve retornar `{soma, subtracao, multiplicacao, divisao}`
-- `calcularINSS`: aplica a alíquota sobre o salário inteiro, conforme faixa
-- `calcularIRPF`: aplica a alíquota sobre o salário inteiro, conforme faixa
-- `converterIdadeEmDias`: retorna `{anos, meses, dias}` considerando ano=365 e mês=30
+---
 
 ### 🧮 Exercício 01: Operações Básicas
 Escreva um programa JAVA que solicite dois números e exiba a soma, subtração, multiplicação e divisão desses números.
@@ -81,7 +75,28 @@ Escreva um programa JAVA que leia a **Idade de um aluno em dias** e informe em a
 -  Sua atividade receberá uma pontuação de 0 a 10, que compõe os 30% da Nota da ATV1;
 -  A nota será atribuída no Google ClassRoom
 
+---
+
 ## GitHub Classroom - Correção Automática 🤖
+
+### Contrato de Métodos
+
+Para que a correção automática funcione, implemente os métodos estáticos abaixo na classe `App`:
+
+```java
+public static double[] operacoesBasicas(double a, double b)
+public static double calcularINSS(double salario)
+public static double calcularIRPF(double salario)
+public static int[] converterIdadeEmDias(int totalDias)
+```
+
+**Regras esperadas pelo corretor:**
+- `operacoesBasicas`: deve retornar `{soma, subtracao, multiplicacao, divisao}`
+- `calcularINSS`: aplica a alíquota sobre o salário inteiro, conforme faixa
+- `calcularIRPF`: aplica a alíquota sobre o salário inteiro, conforme faixa
+- `converterIdadeEmDias`: retorna `{anos, meses, dias}` considerando ano=365 e mês=30
+
+### Configuração do Autograding
 
 Este repositório já possui configuração de autocorreção em:
 - `.github/classroom/autograding.json`
@@ -95,11 +110,8 @@ Pontuação automática:
 - Exercício 03: 2 pontos
 - Exercício 04: 2 pontos
 
-### Como usar
-1. Crie a atividade no GitHub Classroom usando este repositório como template.
-2. Na atividade, habilite `Autograding`.
-3. Importe os testes a partir do arquivo `.github/classroom/autograding.json` (ou configure os mesmos comandos manualmente).
-4. Ao receber `push` do aluno, execute os testes de autograding.
+**Total: 10 pontos**
+
 
 
 
