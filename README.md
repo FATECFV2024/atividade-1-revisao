@@ -10,9 +10,8 @@
 
 ## Como Utilizar Esse Projeto 📁
 
-- Nesse projeto há duas pastas:
-    - FazerNetBeans:Exclusiva para realizar na IDE NetBeans 8.2 (Utilizaremos esse no Laboratório)
-    - FazerNetBeans:Exclusiva para realizar no VisualStudio Code. 
+- Nesse projeto há pasta:
+    - src:Exclusiva para incluir os códigos esperados
 
 - Na sua máquina tem que ter instalado o <a href="https://www.oracle.com/br/java/technologies/downloads/" target="_blank">Java Development Kit (JDK) </a> 
 - Caso utilize o VisualStudio Code é necessário que instale a <a href="https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack" target="_blank">Extension Pack for Java</a>
@@ -28,10 +27,10 @@ Implementar uma classe que seja capaz de simular todos os cenários abaixo:
 ![41](https://github.com/franciscodouglas/atividade-1-revisao/assets/98854868/9292b738-c939-4810-8c28-35abe27c10ae)
 ![42](https://github.com/franciscodouglas/atividade-1-revisao/assets/98854868/f0e17c4d-2ef9-4667-af64-4f17b627e706)
 
-## No Microsoft Teams  👥
+## No Google ClassRoom  👥
 
 - Não há necessidade fazer o upload do projeto 
-- Caso tenha realizado em dupla, mencione o NOME e RGM da dupla lá no Teams em um arquivo .txt
+- Enviar o Link do Repositório 
 
 ## Regras 📄
 
@@ -41,8 +40,8 @@ Implementar uma classe que seja capaz de simular todos os cenários abaixo:
 - Utilize comentários para elucidar o cenário elaborado;
 
 ## Feedback 📨
--  Sua atividade receberá uma pontuação de 0 a 10, que compõe os 40% da Nota da M2;
--  A nota será atribuída no Microsoft Teams
+-  Sua atividade receberá uma pontuação de 0 a 10, que compõe os 30% da Nota da ATV1;
+-  A nota será atribuída no Google ClassRoom
 
 
 
