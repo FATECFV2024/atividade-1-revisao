@@ -96,12 +96,6 @@ public static int[] converterIdadeEmDias(int totalDias)
 - `calcularIRPF`: aplica a alíquota sobre o salário inteiro, conforme faixa
 - `converterIdadeEmDias`: retorna `{anos, meses, dias}` considerando ano=365 e mês=30
 
-### Configuração do Autograding
-
-Este repositório já possui configuração de autocorreção em:
-- `.github/classroom/autograding.json`
-- `autograde/Autograder.java`
-- `scripts/grade.sh`
 
 Pontuação automática:
 - Compilação: 2 pontos
